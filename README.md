@@ -1,11 +1,28 @@
 # Python for Engineering Simulation (Not Data Science)
 
-## Chapter 0 — How to Read This Book
-- What this book is
-- What this book is not
-- Assumed background
-- Why simulation is not reality
-- How engineers misuse simulations
+## Unit 0 — How to Read This Book
+
+### What this book is
+This book is a practical guide to **engineering simulation using Python**, focusing on **physically meaningful and trustworthy results**.  
+It emphasizes **engineering thinking**: how to make assumptions, check results, and understand the limitations of your models.  
+
+### What this book is not
+- **Not a math textbook:** Heavy derivations and formal proofs are avoided unless they help build intuition.  
+- **Not a data science or ML guide:** This book focuses on **modeling physical systems**, not predicting data.  
+- **Not a plug-and-play Python tutorial:** Code is provided to illustrate concepts; production-level implementation notes appear only when necessary.  
+
+### What you need to follow along
+This book assumes you are comfortable with:  
+- **Basic physics:** forces, energy, and simple mechanics.  
+- **Differential changes:** intuitive understanding of derivatives and integrals.  
+- **Python basics:** loops, functions, arrays.  
+- **Logical reasoning about systems:** the ability to spot when a model might be breaking down or producing unrealistic results.  
+
+### Practical conventions you’ll encounter in this book
+- **SI units and consistency:** all quantities use standard units; mixing units can introduce errors.  
+- **Version control (Git):** tracking simulation code is critical when iterating models.  
+- **Python environment and libraries:** virtual environments, NumPy, SciPy, Matplotlib; optional tools like JAX or Cython for performance.  
+- **Code organization and documentation:** clean modules, commenting, and logging are essential in engineering simulations.
 
 ---
 
@@ -17,6 +34,8 @@
 - Order-of-magnitude correctness
 - When precision does not matter
 - When it absolutely does
+- **Why simulation is not reality** (moved from Unit 0)
+- **How engineers misuse simulations** (moved from Unit 0)
 
 ### Chapter 2 — Time Is the Enemy
 - Continuous vs discrete time
@@ -105,4 +124,3 @@
 - Simulation as a decision-support tool
 - Engineering humility
 - Why verification never ends
-
